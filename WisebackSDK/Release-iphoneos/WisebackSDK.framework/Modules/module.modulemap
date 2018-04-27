@@ -1,0 +1,11 @@
+framework module WisebackSDK {
+  umbrella header "WisebackSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module WisebackSDK.Swift {
+    header "WisebackSDK-Swift.h"
+    requires objc
+}
